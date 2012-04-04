@@ -1,0 +1,249 @@
+TITLE: Multi-Channel Audio/DJ Mixer
+
+AUTHOR: Alexander Attar
+
+ABSTRACT:
+
+The Multi-Channel Audio/DJ Mixer is a program for audio playback and mixing control through 
+graphical user interface controls on the iPhone. The application includes up to six channels 
+for audio streams. The two primary streams possess a crossfader for DJ style blending of tracks.
+The additional four channels feature individual input gain faders for mixing of auxilery tracks. 
+All the tracks have panning control for sound localization within the stereo field. Playback is 
+controlled globally through the master play button, which ensures sample syncing of the audio. 
+The tracks can also be launched and paused individually, by the track launch buttons on the 
+interface. Finally, the total output volume can be controlled through a master amplitude fader.
+
+WHAT:
+
+The program is a multi-channel audio mixer designed with a GUI interface for the iPhone. 
+It features up to six streams of audio content split into separate audio buffers (either mono or 
+stereo stems) The first two channels are the primary channels. The user can manipulate the 
+amplitude of the tracks loaded into these channels in the fashion of a DJ mixer through a cross 
+fader that is included in the interface.This allows for the fading of one track to the next, or 
+blending of the two streams of audio.
+
+The other four tracks have individual amplitude level adjustment sliders, which allow them to be 
+mixed accordingly. All tracks are launchable through play buttons that are included in the GUI.
+
+In addition to amplitude level faders, each channel also possesses a panning slider. This enables
+localization of a particular track within the stereo field. 
+
+Along with the individual input level controls, there is a global master level fader. This slider
+governs the total output volume of all tracks that are currently playing. 
+
+Although each channel can be launched and paused using the track play/stop buttons, there is a 
+master play button which commands the playback of all the channels. The master play button must 
+be clicked for any track to play. This global play button allows the tracks to be synced by sample.
+
+This means that if even if a track is paused, it will remain caught up with the playing tracks if
+it is reenabled through that channel's play button. This is particularly useful if a user has 
+put stems from a piece to be mixed into the program. The user can pause and play tracks without
+worry of them falling out of sync with the rest of the parts that comprise the piece. 
+
+The sample syncing is also useful for the DJ mixer if the user has loaded two tracks that are 
+at the same bmp (beats per minute). This will allow for smooth crossfading at a synced beat. 
+
+It is up to the user how the tracks within the mixer are to be used. If used in a DJ mixer
+fashion it makes sense to load the main tracks into the primary channels for use with the 
+cross fader and to load auxilery tracks into the 4 other buses. If the device is used as a 
+traditional multi-channel mixer, the cross fader may not be utilized, and rather the individual
+channels faders should be used for level adjustment. Because the program features a touch GUI, 
+it is possible to control more than one parameter simultaneously. 
+
+HOW:
+
+The program will be implemented in Objective-C, a superset of the C programming language. This 
+should be done using Xcode, and the Interface Builder. There are two major components which need to
+be programmed: 1. The audio devices which allow playback and manipulation of the streams.
+2. The GUI, which will be touch controlled. 
+
+The main source files for the GUI code are: 
+
+MultiChannelMixViewController.h and MultiChannelMixViewController.m. These files are the header
+and the implementation of the view component of the program. 
+
+The source files for the mixer itself are:
+
+MultiChannelMixer.h and MultiChannelMixer.c. These are the header and implementation files for the
+audio aspects of the program. 
+
+Along with these 4 source files which will contain the main work for the program, there will be 
+4 other source files that will are created by default when initializing a new view-based application
+within Xcode. These include: MultiChannelMixerAppDelegate.h MultiChannelMixerAppDelegate.m, which 
+contain the overarching source code for including the view within the window.
+
+MultiChannelMixer_Prefix.pch which is Prefix header for all source files of the 'MultiMixer' target
+in the 'MultiMixer' project
+
+and main.m	which contains the main function for the program. These last 4 files are not of concern
+during the development of this project since they are created automatically once a new view-based
+controller is made in Xcode. They do not need to be altered afterwards. In addition to these files
+this project will include 4 frameworks:
+
+UIKit.framework  
+Foundation.framework
+AudioToolBox.framework 
+AVFoundation.framework
+
+Starting with the GUI, let's consider the necessities for the program: We need a MultiChannelMixer
+class that will allow communication between the view objects in the GUI with the actual 
+MultiChannelMixer itself. This will go within the interface. We will then instantiate an 
+audioObject from this class. 
+
+The other interface objects that the program requires are the touch screen components themselves.
+This includes all of the buttons and sliders that will be part of the GUI. In Objective-C, these 
+objects are UIButton and UISlider. Each instance of these objects will have a pointer, Such as: 
+
+UIButton *mixerButton0;
+UISlider *mixerBus0LevelFader;
+
+Because these user interface objects will be communicating with the rest of the program, they need 
+outlets that enable connecting to the touch screen objects within the interface builder. In
+Objective-C, these are called IBOutlets and are defined in the following way:
+
+@property (nonatomic, retain)    IBOutlet UIButton			*mixerButton0;
+@property (nonatomic, retain)    IBOutlet UISlider			*mixerBus0LevelFader;
+
+Properties are a feature of Objective-C that automatically generate accessors to these elements. 
+We can define all the user interface objects that will be used in this fashion for the buttons
+sliders, ect. 
+
+The rest of the header file should include the function (method) prototypes for the implementation
+source. The prototypes are as follows:
+
+- (IBAction) enableMixerInput:          (UISwitch *) sender;
+- (IBAction) mixerInputGainChanged:		(UISlider *) sender;
+- (IBAction) panningPosChanged:			(UISlider *) sender;
+- (IBAction) buttonPressed:(id)sender;
+
+- (IBAction) mixerOutputGainChanged:	(UISlider *) sender;
+- (IBAction) playOrStop:				(id) sender;
+
+- (void) handlePlaybackStateChanged:	(id) sender;
+- (void) initializeMixerSettingsToUI;
+- (void) registerForAudioObjectNotifications;
+
+IBAction methods resolve to void, but similar to IBOutlet, this is a macro for methods that will
+be used in interface builder for linking our methods to user touch input. 
+
+We need these actions so that by manipulating the buttons, sliders, ect. on the screen the desired
+effects will happen. 
+
+- (void) initializeMixerSettingsToUI initializes the GUI values of the mixer. The rest of the
+methods are are taken from Apple's example procedure for dealing with interruptions, such as a phone
+call. 
+
+In MultiChannelMixerAppDelegate.m, these methods are implemented. 
+
+
+MultiChannelMixer.h is the header source for the actual mixer and it's components. Within this 
+header the objects and methods are defined for the mixer. There is a global struct for containing
+the important information of each audio file that the program reads in. Following Apple's 
+documentation for proper design of this AudioUnit sound struct, the structure looks as follows:
+
+typedef struct {
+	
+    BOOL                 isStereo;          
+    UInt32               frameCount;         
+    UInt32               sampleNumber;       
+    AudioUnitSampleType  *audioDataLeft;     
+    AudioUnitSampleType  *audioDataRight;  
+    
+} soundStruct, *soundStructPtr;
+
+The interface for the MultiChannelMixer contains some types that are defined within AudioToolBox
+and AVFoundation Frameworks. Proper declarations of these types within the interface can be 
+followed from Apples documentation. These types contain the information the AudioUnits will use.
+Instances of these types are used throughout the program for passing the audio information. The
+follow are the types used in this interface:
+
+	Float64                         graphSampleRate;
+    CFURLRef                        sourceURLArray[NUM_FILES];
+    soundStruct                     soundStructArray[NUM_FILES];
+	
+    AudioStreamBasicDescription     stereoStreamFormat;
+    AudioStreamBasicDescription     monoStreamFormat;
+    AUGraph                         processingGraph;
+    BOOL                            playing;
+    BOOL                            interruptedDuringPlayback;
+    AudioUnit                       mixerUnit;
+    
+In the same way as the properties were defined in the view header, these types should be given
+properties for access to them in the implementation such as the following:
+
+@property                       AudioUnit                   mixerUnit;
+
+Finally, let's consider the functions this MultiChannelMixer program should have:
+
+The following methods are designed to find our audio files, setup the audio session and then read
+the files into program memory:
+
+- (void) obtainSoundFileURLs;
+- (void) setupAudioSession;
+- (void) setupStereoStreamFormat;
+- (void) setupMonoStreamFormat;
+
+- (void) readAudioFilesIntoMemory;
+
+Audio Units provides a type that is a graph that will contain the audio data for playback. This
+graph needs to be configured before it can be used to play and stop audio. Apple demonstrates the 
+process for doing this within their developer documentation. The methods include:
+
+- (void) configureAndInitializeAudioProcessingGraph;
+- (void) startAUGraph;
+- (void) stopAUGraph;
+
+Finally, the program needs methods that control the audio parameters such as the amplitude levels,
+panning locations and master output gain. These are as follows:
+
+- (void) enableMixerInput: (UInt32) inputBus isOn: (AudioUnitParameterValue) isONValue;
+- (void) setMixerInput: (UInt32) inputBus gain: (AudioUnitParameterValue) inputGain;
+- (void) setMixerPan: (Float32) inputBus pan: (AudioUnitParameterValue) panningPos;
+
+This concludes the basic structure for the program source codes. The within MultiChannelMix.m
+will be the implementation of the methods defined in the header. 
+
+Because this is a program with a GUI, the interface must be constructed and connected to the 
+methods defined in the code. This linking is achieved in the Interface Builder. This resource file
+where this design is stored is the MultiChannelMixerViewController.xib. 
+
+Within the Interface Builder the programs GUI design will be created using the iPhone UI library. 
+This provides the buttons, sliders, ect that will be included in the interface. Once these elements
+are arranged in the .xib file, they must be connected to the proper methods. For instance, 
+a button can be linked to the enableMixerInput method so that clicking the button starts playback.
+The method, likewise must be connected to the proper object that each UI element is supposed to 
+control. This entails assigning each button to the proper pointer, so that button 1 will control
+track 1 and slider 1 will control the amplitude level of track 1 ect. This is acheived using 
+a feature in interface builder called tags. By giving slider 1 the tag: 1, the slider will be 
+properly linked to the correct channel of audio. 
+
+All objects within the GUI must be connected to the right elements and methods for the interface 
+to function properly. Designing the interface is only possible after the code for the methods 
+are written within the source files, but the Interface Builder is helpful when testing out new
+methods. 
+
+Xcode provides the iPhone simulator for testing out the code on the computer. This can also be used
+for demonstrating the program. 
+
+This concludes the design specifications for the Multi-Channel Audio/DJ Mixer. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

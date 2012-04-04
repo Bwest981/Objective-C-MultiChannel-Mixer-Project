@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AVCaptureDevices</key>
+	<array>
+		<dict>
+			<key>mediaType</key>
+			<string>soun</string>
+			<key>uniqueID</key>
+			<string>com.apple.avfoundation.avcapturedevice.built-in_audio:0</string>
+			<key>modelID</key>
+			<string>com.apple.avfoundation.avcapturedevice.built-in_audio:0</string>
+			<key>localizedName</key>
+			<string>Headphones</string>
+			<key>AVCaptureSessionPresetCommon</key>
+			<dict>
+				<key>PresetName</key>
+				<string>a</string>
+				<key>Description</key>
+				<string>Audio Recording</string>
+				<key>AudioCodec</key>
+				<string>aac </string>
+			</dict>
+			<key>AVCaptureSessionPresetPhoto</key>
+			<dict/>
+			<key>AVCaptureSessionPresetHigh</key>
+			<dict/>
+			<key>AVCaptureSessionPresetMedium</key>
+			<dict/>
+			<key>AVCaptureSessionPresetLow</key>
+			<dict>
+				<key>Description</key>
+				<string>Low Quality Audio</string>
+				<key>AudioPreset</key>
+				<string>Preset_AAC_22kHz_Mono_24kbit</string>
+			</dict>
+			<key>AVCaptureSessionPresetiFrame</key>
+			<dict/>
+			<key>AVCaptureSessionPresetVoicemailGreeting</key>
+			<dict>
+				<key>Description</key>
+				<string>Voicemail</string>
+				<key>AudioCodec</key>
+				<string>samr</string>
+				<key>FormatWriterOptions</key>
+				<dict>
+					<key>FileFormat</key>
+					<string>AMRAudioFile</string>
+				</dict>
+			</dict>
+			<key>AVCaptureSessionPreset640x480</key>
+			<dict/>
+			<key>AVCaptureSessionPreset960x540</key>
+			<dict/>
+			<key>AVCaptureSessionPreset1280x720</key>
+			<dict/>
+			<key>AVCaptureSessionPresetConferencing</key>
+			<dict>
+				<key>AudioPreset</key>
+				<string>Preset_AAC_22kHz_Mono_24kbit</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ValidationType</key>
+	<string>RequireOneRecognized</string>
+	<key>ValidBrands</key>
+	<array>
+		<string>M4V </string>
+		<string>M4A </string>
+		<string>M4B </string>
+		<string>M4P1</string>
+		<string>M4P2</string>
+		<string>M4PP</string>
+		<string>M4V1</string>
+		<string>M4V2</string>
+		<string>M4VP</string>
+	</array>
+	<key>TrackTypes</key>
+	<array>
+		<string>vide</string>
+		<string>soun</string>
+		<string>clcp</string>
+		<string>sbtl</string>
+	</array>
+	<key>soun</key>
+	<array>
+		<string>lpcm</string>
+		<string>ima4</string>
+		<string>aac </string>
+		<string>paac</string>
+		<string>QDM2</string>
+		<string>alac</string>
+		<string>.mp3</string>
+		<string>samr</string>
+		<string>ulaw</string>
+		<string>alaw</string>
+	</array>
+	<key>vide</key>
+	<array>
+		<string>avc1</string>
+		<string>mp4v</string>
+		<string>SVQ3</string>
+		<string>ipb </string>
+		<string>h263</string>
+		<string>dmb1</string>
+		<string>jpeg</string>
+	</array>
+	<key>VideoCodecProfiles</key>
+	<dict>
+		<key>SVQ3</key>
+		<dict>
+			<key>VideoMaxPixelsPerFrame</key>
+			<integer>76800</integer>
+		</dict>
+		<key>avc1</key>
+		<dict>
+			<key>SupportedProfiles</key>
+			<array>
+				<integer>66</integer>
+				<integer>77</integer>
+				<integer>100</integer>
+			</array>
+			<key>MaxLevel</key>
+			<integer>31</integer>
+		</dict>
+		<key>mp4v</key>
+		<dict>
+			<key>MaxProfile</key>
+			<integer>1</integer>
+			<key>MaxLevel</key>
+			<integer>4</integer>
+		</dict>
+		<key>h263</key>
+		<dict>
+			<key>MaxProfile</key>
+			<integer>0</integer>
+			<key>MaxLevel</key>
+			<integer>45</integer>
+		</dict>
+	</dict>
+	<key>VideoMaxWidth</key>
+	<integer>1280</integer>
+	<key>VideoMaxHeight</key>
+	<integer>1280</integer>
+	<key>VideoMaxPixelsPerFrame</key>
+	<integer>921600</integer>
+	<key>AudioMinSampleRate</key>
+	<integer>8000</integer>
+	<key>AudioMaxSampleRate</key>
+	<integer>48000</integer>
+	<key>AudioMaxNumberOfChannels</key>
+	<integer>2</integer>
+	<key>AllowMultipleEdits</key>
+	<true/>
+</dict>
+</plist>

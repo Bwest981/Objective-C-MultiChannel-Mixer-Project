@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AVAssetExportPresetAppleM4A</key>
+	<dict>
+		<key>Video</key>
+		<dict>
+			<key>videoCodec</key>
+			<integer>1851876449</integer>
+		</dict>
+		<key>Audio</key>
+		<dict>
+			<key>audioPreset</key>
+			<string>Preset_AAC_44kHz_Stereo_256kbit</string>
+		</dict>
+	</dict>
+	<key>AVAssetExportPresetMMS</key>
+	<dict>
+		<key>Video</key>
+		<dict>
+			<key>videoCodec</key>
+			<integer>1851876449</integer>
+		</dict>
+		<key>Audio</key>
+		<dict>
+			<key>audioPreset</key>
+			<string>Preset_AMR_8kHz_Mono_12kbit_CBR</string>
+			<key>minAudioBitRate</key>
+			<integer>12000</integer>
+		</dict>
+		<key>audioInterleavingAdvance</key>
+		<real>0.5</real>
+		<key>maxFileSize</key>
+		<integer>604160</integer>
+	</dict>
+</dict>
+</plist>

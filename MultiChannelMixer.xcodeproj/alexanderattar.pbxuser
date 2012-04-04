@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* MultiChannelMixerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1266, 580}}";
+			sepNavSelRange = "{443, 0}";
+			sepNavVisRange = "{0, 483}";
+		};
+	};
+	1D3623250D0F684500981E51 /* MultiChannelMixerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {2244, 1200}}";
+			sepNavSelRange = "{101, 0}";
+			sepNavVisRange = "{0, 1285}";
+			sepNavWindowFrame = "{{61, 22}, {1135, 959}}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* MultiChannelMixer */ = {
+		activeExec = 0;
+		executables = (
+			F6E92EE5148F368100523021 /* MultiChannelMixer */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* MultiChannelMixerViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {963, 1680}}";
+			sepNavSelRange = "{3103, 0}";
+			sepNavVisRange = "{0, 856}";
+			sepNavWindowFrame = "{{38, 43}, {1135, 959}}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* MultiChannelMixerViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1060, 5850}}";
+			sepNavSelRange = "{8421, 0}";
+			sepNavVisRange = "{0, 927}";
+			sepNavWindowFrame = "{{61, 22}, {1135, 959}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = F6E92EE5148F368100523021 /* MultiChannelMixer */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MultiChannelMixer */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* MultiChannelMixer */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = F6E92EF0148F36A000523021 /* Code sense */;
+		executables = (
+			F6E92EE5148F368100523021 /* MultiChannelMixer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					847,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1000,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 346711867;
+			PBXWorkspaceStateSaveDate = 346711867;
+		};
+		perUserProjectItems = {
+			F6319A091494674D005FA5CB /* PBXTextBookmark */ = F6319A091494674D005FA5CB /* PBXTextBookmark */;
+			F6319A0B1494674D005FA5CB /* PBXTextBookmark */ = F6319A0B1494674D005FA5CB /* PBXTextBookmark */;
+			F680434314AA6F2B008D64FB /* PBXTextBookmark */ = F680434314AA6F2B008D64FB /* PBXTextBookmark */;
+			F680434414AA6F2B008D64FB /* PBXTextBookmark */ = F680434414AA6F2B008D64FB /* PBXTextBookmark */;
+			F680434514AA6F2B008D64FB /* PBXTextBookmark */ = F680434514AA6F2B008D64FB /* PBXTextBookmark */;
+			F6AF1C4F14A00132006E9137 /* PlistBookmark */ = F6AF1C4F14A00132006E9137 /* PlistBookmark */;
+			F6AF1C5014A00132006E9137 /* PBXTextBookmark */ = F6AF1C5014A00132006E9137 /* PBXTextBookmark */;
+			F6AF1C5114A00132006E9137 /* PBXTextBookmark */ = F6AF1C5114A00132006E9137 /* PBXTextBookmark */;
+			F6B8A95814A28E3300377B0E /* PBXTextBookmark */ = F6B8A95814A28E3300377B0E /* PBXTextBookmark */;
+			F6B8A95914A28E3300377B0E /* PBXTextBookmark */ = F6B8A95914A28E3300377B0E /* PBXTextBookmark */;
+			F6ECABD6148F660F000A9ADD /* PBXTextBookmark */ = F6ECABD6148F660F000A9ADD /* PBXTextBookmark */;
+		};
+		sourceControlManager = F6E92EEF148F36A000523021 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1285, 604}}";
+			sepNavSelRange = "{374, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	8D1107310486CEB800E47090 /* MultiChannelMixer-Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{36, 14}, {1135, 959}}";
+		};
+	};
+	F6319A091494674D005FA5CB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 18";
+		rLen = 0;
+		rLoc = 374;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	F6319A0B1494674D005FA5CB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* MultiChannelMixerAppDelegate.m */;
+		name = "MultiChannelMixerAppDelegate.m: 5";
+		rLen = 0;
+		rLoc = 101;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 0;
+	};
+	F67427BC14902CC70083D128 /* MultiChannelMixer_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1266, 580}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 189}";
+			sepNavWindowFrame = "{{15, 64}, {1135, 959}}";
+		};
+	};
+	F680434314AA6F2B008D64FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* MultiChannelMixerViewController.m */;
+		name = "MultiChannelMixerViewController.m: 307";
+		rLen = 0;
+		rLoc = 8421;
+		rType = 0;
+		vrLen = 927;
+		vrLoc = 0;
+	};
+	F680434414AA6F2B008D64FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ECAB8C148F55A9000A9ADD /* MulitChannelMixer.h */;
+		name = "MultiChannelMixer.h: 79";
+		rLen = 0;
+		rLoc = 3038;
+		rType = 0;
+		vrLen = 1721;
+		vrLoc = 0;
+	};
+	F680434514AA6F2B008D64FB /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ECAB20148F3EA1000A9ADD /* MultiChannelMixer.h */;
+		name = "MultiChannelMixer.h: 79";
+		rLen = 0;
+		rLoc = 3038;
+		rType = 0;
+		vrLen = 1721;
+		vrLoc = 0;
+	};
+	F6AF1C4F14A00132006E9137 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* MultiChannelMixer-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/MultiChannelMixer-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	F6AF1C5014A00132006E9137 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* MultiChannelMixerAppDelegate.h */;
+		name = "MultiChannelMixerAppDelegate.h: 18";
+		rLen = 0;
+		rLoc = 443;
+		rType = 0;
+		vrLen = 483;
+		vrLoc = 0;
+	};
+	F6AF1C5114A00132006E9137 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F67427BC14902CC70083D128 /* MultiChannelMixer_Prefix.pch */;
+		name = "MultiChannelMixer_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 189;
+		vrLoc = 0;
+	};
+	F6B8A95814A28E3300377B0E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ECAB21148F3EA1000A9ADD /* MultiChannelMixer.m */;
+		name = "MultiChannelMixer.m: 34";
+		rLen = 0;
+		rLoc = 1573;
+		rType = 0;
+		vrLen = 1495;
+		vrLoc = 37856;
+	};
+	F6B8A95914A28E3300377B0E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* MultiChannelMixerViewController.h */;
+		name = "MultiChannelMixerViewController.h: 95";
+		rLen = 0;
+		rLoc = 3103;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 0;
+	};
+	F6E92EE5148F368100523021 /* MultiChannelMixer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MultiChannelMixer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	F6E92EEF148F36A000523021 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				../../../Documents/CodeBackups/MultiChannelMixer = MultiChannelMixer;
+			};
+		};
+	};
+	F6E92EF0148F36A000523021 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	F6ECAB20148F3EA1000A9ADD /* MultiChannelMixer.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 1170}}";
+			sepNavSelRange = "{3038, 0}";
+			sepNavVisRange = "{0, 1721}";
+		};
+	};
+	F6ECAB21148F3EA1000A9ADD /* MultiChannelMixer.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1236, 15810}}";
+			sepNavSelRange = "{1573, 0}";
+			sepNavVisRange = "{37856, 1495}";
+			sepNavWindowFrame = "{{38, 43}, {1135, 959}}";
+		};
+	};
+	F6ECAB8C148F55A9000A9ADD /* MulitChannelMixer.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = MulitChannelMixer.h;
+		path = Classes/MultiChannelMixer.h;
+		sourceTree = SOURCE_ROOT;
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1025, 1170}}";
+			sepNavSelRange = "{3038, 0}";
+			sepNavVisRange = "{0, 1721}";
+		};
+	};
+	F6ECABD6148F660F000A9ADD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = F6ECABD7148F660F000A9ADD /* CoreAudioTypes.h */;
+		name = "CoreAudioTypes.h: 203";
+		rLen = 35;
+		rLoc = 7645;
+		rType = 0;
+		vrLen = 2189;
+		vrLoc = 8376;
+	};
+	F6ECABD7148F660F000A9ADD /* CoreAudioTypes.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CoreAudioTypes.h;
+		path = /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreAudio.framework/Headers/CoreAudioTypes.h;
+		sourceTree = "<absolute>";
+	};
+}

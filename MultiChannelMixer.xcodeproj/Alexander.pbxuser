@@ -1,0 +1,89 @@
+// !$*UTF8*$!
+{
+	11F034C315294329005DFC04 /* MultiChannelMixer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = MultiChannelMixer;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	11F034DF1529433C005DFC04 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				../../../Documents/CodeBackups/MultiChannelMixer = "";
+			};
+		};
+	};
+	11F034E01529433C005DFC04 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1D6058900D05DD3D006BFB54 /* MultiChannelMixer */ = {
+		activeExec = 0;
+		executables = (
+			11F034C315294329005DFC04 /* MultiChannelMixer */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 11F034C315294329005DFC04 /* MultiChannelMixer */;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* MultiChannelMixer */;
+		codeSenseManager = 11F034E01529433C005DFC04 /* Code sense */;
+		executables = (
+			11F034C315294329005DFC04 /* MultiChannelMixer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 355025705;
+			PBXWorkspaceStateSaveDate = 355025705;
+		};
+		sourceControlManager = 11F034DF1529433C005DFC04 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+}

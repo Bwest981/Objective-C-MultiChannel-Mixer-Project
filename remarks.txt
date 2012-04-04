@@ -1,0 +1,13 @@
+TITLE: Multi-Channel Audio/DJ Mixer
+AUTHOR: Alexander Attar
+
+
+REMARKS:
+
+Part of the reason I took the C Programming class this fall was because I have been interested in eventually creating music/audio related applications for iOS. Particularly, I am interested in performance controller based devices as well as multichannel panning. I was unsure if this goal was to be realized within class, since programming in general is not something that I have had much previous experience with. During the class I read Apple's documentation on Objective-C/Object Oriented Programming, picked up a book on Cocoa/Objective-C programming and watched the iPhone development lecture videos that Stanford University has put online for free in my spare time. 
+
+With some foundation between what I learned in our class and what I learned on my own, I decided to take this project as an opportunity to dive into audio programming for iOS to learn and to see what I could come up with. Inevitably, I was not able to include all the functionality that I had originally aspired to in the project, but I definitely learned a lot. Some of the other elements I had sought to include in the mixer included GUI timer bars to display the playhead of tracks that were being played, and Equalization control. Unfortunately, I found that the Eq within the framework I used for the project was only available for iOS 5, which I didn't have, and although I tried a few different methods to get the timer bar, I was unable to get it to work at this time. 
+
+Other things that I would like to continue to learn deals more with customizing the GUI, but I felt that was something to focus on after this class in the future. Finally, I think this project was definitely a useful exercise, but the program itself is not all that practical. In the future, rather than loading audio into the iPhone Simulator, I would like to work on a project that uses remote control through OSC (Open Sound Control) in order to control audio parameters from a networked device that might be running a digital audio workstation. 
+
+All in all, it was a good experience, and I believe what I have learned in C has provided me the foundation for moving forward with new projects in the future. 
