@@ -1,7 +1,7 @@
 TMultiChannelMixer
 v7
 r0
-t355025723.002867
+t355273946.180757
 cCheck dependencies
 cProcessInfoPlistFile /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Info.plist MultiChannelMixer-Info.plist
 cCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Default.png images/Default.png
@@ -2202,7 +2202,7 @@ t1323250097
 s30700048
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app
-t1333332923
+t1333581146
 s918
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app.dSYM
@@ -2210,7 +2210,7 @@ t1333332922
 s102
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Bass.wav
-t1324277501
+t1333581145
 s29001872
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Default.png
@@ -2218,7 +2218,7 @@ t1323331609
 s11442
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Drums.wav
-t1324277501
+t1333581145
 s29001872
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Info.plist
@@ -2226,7 +2226,7 @@ t1323655760
 s671
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Lead.wav
-t1324277502
+t1333581145
 s29001872
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/MainWindow.nib
@@ -2242,11 +2242,11 @@ t1324328169
 s12051
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Piano.wav
-t1324277500
+t1333581144
 s29001872
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/Piano2.wav
-t1324329096
+t1333581139
 s2000174
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/PkgInfo
@@ -2254,15 +2254,15 @@ t1323655760
 s8
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/XF.wav
-t1324337611
+t1333581139
 s330994
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/XF2.wav
-t1324337611
+t1333581139
 s333562
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/hihat.wav
-t1324329096
+t1333581139
 s2000174
 
 N/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app/p.png
@@ -13015,7 +13015,7 @@ s1023
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies355025717#355025717#0(0"0(0#1#0"31525334837231728#0"0#
+lSLF07#2@18"Check dependencies355273939#355273939#0(0"0(0#1#0"31525334837231728#0"0#
 
 CCompileC build/MultiChannelMixer.build/Debug-iphonesimulator/MultiChannelMixer.build/Objects-normal/i386/MulitChannelMixer.o /Users/alexanderattar/C/FINAL_PROJECT/MultiChannelMixer/Classes/MulitChannelMixer.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s344937927.030494
@@ -13461,13 +13461,13 @@ xBass.wav
 lSLF07#2@13"Copy Bass.wav345965744#345965754#0(0"0(0#0#74"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Bass.wav8617756128#605"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Bass.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Bass.wav sounds/Bass.wav
-s345970287.558277
-e345970301.299031
+s355273939.210397
+e355273945.642066
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/Bass.wav
 xsounds/Bass.wav
-lSLF07#2@20"Copy sounds/Bass.wav345970287#345970301#0(0"0(0#0#81"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Bass.wav8609159552#612"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Bass.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@20"Copy sounds/Bass.wav355273939#355273945#0(0"0(0#0#98"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Bass.wav8603294912#663"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Bass.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Default.png ../../../Desktop/Default.png
 s345024245.031538
@@ -13497,13 +13497,13 @@ xDrums.wav
 lSLF07#2@14"Copy Drums.wav345965744#345965755#0(0"0(0#0#75"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Drums.wav8617551616#606"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Drums.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Drums.wav sounds/Drums.wav
-s345970287.559649
-e345970301.771808
+s355273939.211253
+e355273945.837155
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/Drums.wav
 xsounds/Drums.wav
-lSLF07#2@21"Copy sounds/Drums.wav345970287#345970301#0(0"0(0#0#82"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Drums.wav8609034240#613"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Drums.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@21"Copy sounds/Drums.wav355273939#355273945#0(0"0(0#0#99"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Drums.wav8602828000#664"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Drums.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/HR.mp3 HR.mp3
 s345408166.991644
@@ -13642,13 +13642,13 @@ xLead.wav
 lSLF07#2@13"Copy Lead.wav345965744#345965754#0(0"0(0#0#74"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Lead.wav8617441984#605"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Lead.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Lead.wav sounds/Lead.wav
-s345970287.562188
-e345970302.735996
+s355273939.211868
+e355273945.616642
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/Lead.wav
 xsounds/Lead.wav
-lSLF07#2@20"Copy sounds/Lead.wav345970287#345970302#0(0"0(0#0#81"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Lead.wav8607341088#612"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Lead.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@20"Copy sounds/Lead.wav355273939#355273945#0(0"0(0#0#98"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Lead.wav8607072736#663"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Lead.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Piano sounds/Piano
 r0
@@ -13663,22 +13663,22 @@ xPiano.wav
 lSLF07#2@14"Copy Piano.wav345965744#345965754#0(0"0(0#0#75"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Piano.wav8617060576#606"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/Piano.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Piano.wav sounds/Piano.wav
-s345970287.562976
-e345970300.740157
+s355273939.212667
+e355273944.875458
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/Piano.wav
 xsounds/Piano.wav
-lSLF07#2@21"Copy sounds/Piano.wav345970287#345970300#0(0"0(0#0#82"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Piano.wav8606475968#613"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Piano.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@21"Copy sounds/Piano.wav355273939#355273944#0(0"0(0#0#99"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Piano.wav8602694688#664"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Piano.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Piano2.wav sounds/Piano2.wav
-s346021896.149693
-e346021896.511011
+s355273939.213469
+e355273939.739263
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/Piano2.wav
 xsounds/Piano2.wav
-lSLF07#2@22"Copy sounds/Piano2.wav346021896#346021896#0(0"0(0#0#83"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Piano2.wav8605244832#614"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/Piano2.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@22"Copy sounds/Piano2.wav355273939#355273939#0(0"0(0#0#100"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Piano2.wav8605167936#665"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/Piano2.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/Toki.mp3 Toki.mp3
 s345408166.997832
@@ -13718,22 +13718,22 @@ xXF.wav
 lSLF07#2@11"Copy XF.wav345408166#345408170#0(0"0(0#0#72"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/XF.wav8593614528#603"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/XF.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/XF.wav sounds/XF.wav
-s346030410.957663
-e346030411.028315
+s355273939.219755
+e355273941.456196
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/XF.wav
 xsounds/XF.wav
-lSLF07#2@18"Copy sounds/XF.wav346030410#346030411#0(0"0(0#0#79"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/XF.wav8622165376#610"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/XF.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@18"Copy sounds/XF.wav355273939#355273941#0(0"0(0#0#96"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/XF.wav8605645600#661"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/XF.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/XF2.wav sounds/XF2.wav
-s346030410.958665
-e346030411.030765
+s355273939.220940
+e355273941.623331
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/XF2.wav
 xsounds/XF2.wav
-lSLF07#2@19"Copy sounds/XF2.wav346030410#346030411#0(0"0(0#0#80"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/XF2.wav8621337888#611"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/XF2.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@19"Copy sounds/XF2.wav355273939#355273941#0(0"0(0#0#97"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/XF2.wav8605560992#662"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/XF2.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/XF_Loop_001.wav sounds/XF_Loop_001.wav
 r0
@@ -13757,13 +13757,13 @@ xsounds/guitarStereo.caf
 lSLF07#2@28"Copy sounds/guitarStereo.caf344942912#344942912#0(0"0(0#0#79"/Users/alexanderattar/C/FINAL_PROJECT/MultiChannelMixer/sounds/guitarStereo.caf8620398336#590"    cd /Users/alexanderattar/C/FINAL_PROJECT/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/FINAL_PROJECT/MultiChannelMixer/sounds/guitarStereo.caf /Users/alexanderattar/C/FINAL_PROJECT/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/hihat.wav sounds/hihat.wav
-s346021896.150557
-e346021896.851770
+s355273939.218884
+e355273939.733710
 r1
 xCpResource
 xbuild/Debug-iphonesimulator/MultiChannelMixer.app/hihat.wav
 xsounds/hihat.wav
-lSLF07#2@21"Copy sounds/hihat.wav346021896#346021896#0(0"0(0#0#82"/Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/hihat.wav8604675136#613"    cd /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/sounds/hihat.wav /Users/alexanderattar/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@21"Copy sounds/hihat.wav355273939#355273939#0(0"0(0#0#99"/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/hihat.wav8607123424#664"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/sounds/hihat.wav /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CCpResource build/Debug-iphonesimulator/MultiChannelMixer.app/iTunesArtwork images/iTunesArtwork
 s344942830.239577
@@ -14093,12 +14093,12 @@ CProcessPCH++ /var/folders/na/na86FRNFEzm81Ww3zh+Mg++++TI/-Caches-/com.apple.Xco
 r0
 
 CTouch /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app
-s355025722.857340
-e355025723.002802
+s355273945.838210
+e355273946.180697
 r1
 xTouch
 x/Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app
-lSLF07#2@138"Touch /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app355025722#355025723#0(0"0(0#0#0"8605620160#438"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
+lSLF07#2@138"Touch /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app355273945#355273946#0(0"0(0#0#0"8604982528#438"    cd /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c /Users/Alexander/Documents/Programming/C/alexander_attar_project/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app0#
 
 CTouch /Users/alexanderattar/C/FINAL_PROJECT/MultiChannelMixer/build/Debug-iphonesimulator/MultiChannelMixer.app
 s345292994.489182
