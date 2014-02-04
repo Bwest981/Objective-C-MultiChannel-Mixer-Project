@@ -7,21 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11A7406318A072FE005E1F32 /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 11A7406218A072FE005E1F32 /* sounds */; };
 		1D3623260D0F684500981E51 /* MultiChannelMixerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* MultiChannelMixerAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		28D7ACF80DDB3853001CB0EB /* MultiChannelMixerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* MultiChannelMixerViewController.m */; };
 		F614AC8014959A2F00873249 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = F614AC7D14959A2F00873249 /* MainWindow.xib */; };
 		F614AC8114959A2F00873249 /* MultiChannelMixerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F614AC7E14959A2F00873249 /* MultiChannelMixerViewController.xib */; };
-		F62372C6149F160000EF72AB /* Bass.wav in Resources */ = {isa = PBXBuildFile; fileRef = F62372BF149F160000EF72AB /* Bass.wav */; };
-		F62372C7149F160000EF72AB /* Drums.wav in Resources */ = {isa = PBXBuildFile; fileRef = F62372C0149F160000EF72AB /* Drums.wav */; };
-		F62372CA149F160000EF72AB /* Lead.wav in Resources */ = {isa = PBXBuildFile; fileRef = F62372C3149F160000EF72AB /* Lead.wav */; };
-		F62372CB149F160000EF72AB /* Piano.wav in Resources */ = {isa = PBXBuildFile; fileRef = F62372C4149F160000EF72AB /* Piano.wav */; };
 		F68E6E7C149EB9CD004D01C2 /* p.png in Resources */ = {isa = PBXBuildFile; fileRef = F68E6E7A149EB9CD004D01C2 /* p.png */; };
 		F68E6E7D149EB9CD004D01C2 /* s.png in Resources */ = {isa = PBXBuildFile; fileRef = F68E6E7B149EB9CD004D01C2 /* s.png */; };
-		F6AF1C21149FDFE6006E9137 /* Piano2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6AF1C20149FDFE6006E9137 /* Piano2.wav */; };
-		F6AF1C23149FDFED006E9137 /* hihat.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6AF1C22149FDFED006E9137 /* hihat.wav */; };
-		F6AF1C5514A00146006E9137 /* XF.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6AF1C5314A00146006E9137 /* XF.wav */; };
-		F6AF1C5614A00146006E9137 /* XF2.wav in Resources */ = {isa = PBXBuildFile; fileRef = F6AF1C5414A00146006E9137 /* XF2.wav */; };
 		F6D748261490A79600CDA793 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D748251490A79600CDA793 /* Default.png */; };
 		F6ECAB22148F3EA1000A9ADD /* MultiChannelMixer.m in Sources */ = {isa = PBXBuildFile; fileRef = F6ECAB21148F3EA1000A9ADD /* MultiChannelMixer.m */; };
 		F6ECACD8148F6933000A9ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ECACD4148F6931000A9ADD /* UIKit.framework */; };
@@ -31,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		11A7406218A072FE005E1F32 /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sounds; sourceTree = "<group>"; };
 		1D3623240D0F684500981E51 /* MultiChannelMixerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MultiChannelMixerAppDelegate.h; path = Classes/MultiChannelMixerAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* MultiChannelMixerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MultiChannelMixerAppDelegate.m; path = Classes/MultiChannelMixerAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* MultiChannelMixer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiChannelMixer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,17 +34,9 @@
 		8D1107310486CEB800E47090 /* MultiChannelMixer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MultiChannelMixer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		F614AC7D14959A2F00873249 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		F614AC7E14959A2F00873249 /* MultiChannelMixerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MultiChannelMixerViewController.xib; sourceTree = "<group>"; };
-		F62372BF149F160000EF72AB /* Bass.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Bass.wav; sourceTree = "<group>"; };
-		F62372C0149F160000EF72AB /* Drums.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Drums.wav; sourceTree = "<group>"; };
-		F62372C3149F160000EF72AB /* Lead.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lead.wav; sourceTree = "<group>"; };
-		F62372C4149F160000EF72AB /* Piano.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Piano.wav; sourceTree = "<group>"; };
 		F67427BC14902CC70083D128 /* MultiChannelMixer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiChannelMixer_Prefix.pch; sourceTree = "<group>"; };
 		F68E6E7A149EB9CD004D01C2 /* p.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p.png; sourceTree = "<group>"; };
 		F68E6E7B149EB9CD004D01C2 /* s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = s.png; sourceTree = "<group>"; };
-		F6AF1C20149FDFE6006E9137 /* Piano2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Piano2.wav; sourceTree = "<group>"; };
-		F6AF1C22149FDFED006E9137 /* hihat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = hihat.wav; sourceTree = "<group>"; };
-		F6AF1C5314A00146006E9137 /* XF.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = XF.wav; sourceTree = "<group>"; };
-		F6AF1C5414A00146006E9137 /* XF2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = XF2.wav; sourceTree = "<group>"; };
 		F6D748251490A79600CDA793 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		F6ECAB20148F3EA1000A9ADD /* MultiChannelMixer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiChannelMixer.h; sourceTree = "<group>"; };
 		F6ECAB21148F3EA1000A9ADD /* MultiChannelMixer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiChannelMixer.m; sourceTree = "<group>"; };
@@ -119,10 +105,10 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				11A7406218A072FE005E1F32 /* sounds */,
 				F614AC7D14959A2F00873249 /* MainWindow.xib */,
 				F614AC7E14959A2F00873249 /* MultiChannelMixerViewController.xib */,
 				F6D748241490A79600CDA793 /* images */,
-				F6ECAC01148F690D000A9ADD /* sounds */,
 				8D1107310486CEB800E47090 /* MultiChannelMixer-Info.plist */,
 				F6ECACD3148F692C000A9ADD /* Frameworks */,
 			);
@@ -137,21 +123,6 @@
 				F6D748251490A79600CDA793 /* Default.png */,
 			);
 			path = images;
-			sourceTree = "<group>";
-		};
-		F6ECAC01148F690D000A9ADD /* sounds */ = {
-			isa = PBXGroup;
-			children = (
-				F62372BF149F160000EF72AB /* Bass.wav */,
-				F62372C0149F160000EF72AB /* Drums.wav */,
-				F6AF1C22149FDFED006E9137 /* hihat.wav */,
-				F62372C3149F160000EF72AB /* Lead.wav */,
-				F62372C4149F160000EF72AB /* Piano.wav */,
-				F6AF1C20149FDFE6006E9137 /* Piano2.wav */,
-				F6AF1C5314A00146006E9137 /* XF.wav */,
-				F6AF1C5414A00146006E9137 /* XF2.wav */,
-			);
-			path = sounds;
 			sourceTree = "<group>";
 		};
 		F6ECACD3148F692C000A9ADD /* Frameworks */ = {
@@ -190,6 +161,8 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "MultiChannelMixer" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
@@ -216,17 +189,10 @@
 			files = (
 				F6D748261490A79600CDA793 /* Default.png in Resources */,
 				F614AC8014959A2F00873249 /* MainWindow.xib in Resources */,
+				11A7406318A072FE005E1F32 /* sounds in Resources */,
 				F614AC8114959A2F00873249 /* MultiChannelMixerViewController.xib in Resources */,
 				F68E6E7C149EB9CD004D01C2 /* p.png in Resources */,
 				F68E6E7D149EB9CD004D01C2 /* s.png in Resources */,
-				F62372C6149F160000EF72AB /* Bass.wav in Resources */,
-				F62372C7149F160000EF72AB /* Drums.wav in Resources */,
-				F62372CA149F160000EF72AB /* Lead.wav in Resources */,
-				F62372CB149F160000EF72AB /* Piano.wav in Resources */,
-				F6AF1C21149FDFE6006E9137 /* Piano2.wav in Resources */,
-				F6AF1C23149FDFED006E9137 /* hihat.wav in Resources */,
-				F6AF1C5514A00146006E9137 /* XF.wav in Resources */,
-				F6AF1C5614A00146006E9137 /* XF2.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
